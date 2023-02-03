@@ -1,0 +1,4 @@
+.survey-box-button {
+  display: flex;
+  flex-direction: column;
+}

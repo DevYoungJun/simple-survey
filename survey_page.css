@@ -1,0 +1,71 @@
+section.container-section {
+  padding: 0 25px;
+}
+
+/* Survey <<< */
+.survey-content {
+  display: flex;
+  flex-direction: column;
+}
+.survey-content .box-index {
+  padding-top: 20px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #393938;
+}
+.survey-content .box-index .line {
+  width: 100%;
+  height: 5px;
+  margin-top: 20px;
+  background: #F9F6F4;
+  border-radius: 3px;
+}
+.survey-content .box-index .line>div {
+  width: 5%;
+  height: 100%;
+  background: #FFC938;
+  border-radius: 3px;
+  transition-duration: 500ms;
+}
+.survey-content .box-question {
+  margin-top: 30px;
+  height: 50px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #575757;
+}
+.survey-content .box-select {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 41px;
+}
+.survey-content .box-select button.survey-button {
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 50px;
+  margin: 15px 0;
+
+  background: #FFFFFF;
+  border: 3px solid #E0D8D2;
+  border-radius: 14px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #575757;
+}
+.survey-content .box-select button.survey-button:active {
+  border-color: #FFC938;
+}
+/* >>> Survey */

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1.0">
+
+  <title>Survey</title>
+  <link rel="stylesheet" type="text/css" href="./survey.css">
+  <link rel="stylesheet" type="text/css" href="./survey_page.css">
+</head>
+<body>
+
+  <div class="survey-content" id="surveyContainer">
+    <!--Index-->
+    <section class="container-section box-index">
+      Question <span class="index"></span>.
+      <!--Progress bar-->
+      <div class="line"><div></div></div>
+    </section>
+
+    <!--Question-->
+    <section class="container-section box-question">
+      <span class="question"></span>
+    </section>
+
+    <!--Select-->
+    <section class="container-section box-select">
+      <div class="survey-box-button"></div>
+    </section>
+  </div>
+
+<script>
+  const optionLabels = ['Option 1', 'Option 2', 'Option 3', 'Option 4', 'Option 5'];
+  const optionValues = [1, 2, 3, 4, 5];
+  const surveyData = [
+    {
+      index: 1,
+      question: 'Content of question 1',
+    },
+    {
+      index: 2,
+      question: 'Content of question 2',
+    },
+    {
+      index: 3,
+      question: 'Content of question 3',
+    },
+    {
+      index: 4,
+      question: 'Content of question 4',
+    },
+    {
+      index: 5,
+      question: 'Content of question 5',
+    },
+    {
+      index: 6,
+      question: 'Content of question 6',
+    },
+    {
+      index: 7,
+      question: 'Content of question 7',
+    },
+    {
+      index: 8,
+      question: 'Content of question 8',
+    },
+    {
+      index: 9,
+      question: 'Content of question 9',
+    },
+    {
+      index: 10,
+      question: 'Content of question 10',
+    },
+  ];
+</script>
+<script src="./survey.js"></script>
+<script src="./survey_page.js"></script>
+
+</body>
+</html>
